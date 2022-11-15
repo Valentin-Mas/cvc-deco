@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+    }
+    
+    ul,
+    ol {
+        list-style: none;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 3.5rem;
+    }
+    
+    .mainInicio {
+      background-color: rgba(240, 248, 255, 0.924);
+    }
+    
+    .header {
+        background: rgb(222,184,135);
+        background: linear-gradient(90deg, rgba(222,184,135,1) 18%, rgba(210,130,39,1) 46%, rgba(134,78,0,1) 81%, rgba(88,65,9,1) 100%);
+    padding: 30px;
+    }
+    
+    .navbarItem {
+    border:solid 1.5px black ;
+    border-radius: 10px;
+    padding: 5px;
+    }
+    
+    .seccionTulipan {
+    display: flex ;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 15px;
+    background: rgb(222,184,135);
+    background: linear-gradient(86deg, rgba(222,184,135,1) 17%, rgba(210,130,39,1) 100%, rgba(134,78,0,1) 100%, rgba(94,67,8,1) 100%, rgba(88,65,9,1) 100%);
+    padding: 40px;
+    border: solid 1px black;
+    }
+    
+    .imgTulipan {
+    border-radius: 15px;
+    }
+    
+    .navbarList {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    font-size: 1.3rem;
+    }
+    
+    .navbarItem:hover {
+        font-size: 1.4rem;
+    background-color: rgba(239, 135, 0, 0.918)
+    }
+    
+    .navbarItem {
+        transition: all 0.5s;
+    }
+    
+    .seccionLogo {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .imgLogo {
+       border-radius: 20px;
+       margin-top: 3rem;
+       border: solid 1px black;
+    }
+    
+    .text {
+    width: 40%;
+    font-size: 1.8rem;
+    text-align: center;
+    }
+    
+    .seccionGirasol {
+        display: flex ;
+        flex-direction: row-reverse;
+        justify-content: center ;
+        align-items: center;
+    margin-block: 5rem;
+    margin-bottom: 0%;
+    background: rgb(222,184,135);
+    background: linear-gradient(86deg, rgba(222,184,135,1) 17%, rgba(210,130,39,1) 100%, rgba(134,78,0,1) 100%, rgba(94,67,8,1) 100%, rgba(88,65,9,1) 100%);
+    padding: 40px;
+    border: solid 1px black;
+    }
+    
+    .imgGirasol {
+    border-radius: 15px;
+    }
+    
+    .textGirasol {
+        width: 40%;
+    font-size: 1.8rem;
+    text-align: center;
+    }
+    
+    
+    .redesfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    }
+    
+    
+    .atajosfooter {
+    display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 40px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .atajosfooterItem {
+    text-decoration: none;
+    color: black;
+    }
+    
+    .atajosfooterItem:hover {
+        font-size: 1.7rem;
+    
+    }
+    
+    .atajosfooterItem {
+        transition: all 0.5s;
+    }
+    
+    
+    .titulofooter {
+        font-size: 3rem;
+    }
+    
+    .footer {
+        background: rgb(222,184,135);
+        background: linear-gradient(90deg, rgba(222,184,135,1) 18%, rgba(210,130,39,1) 46%, rgba(134,78,0,1) 81%, rgba(88,65,9,1) 100%);
+        margin-top: 3rem
+    }
+    
+    /*-------MEDIOS DE PAGO-------*/
+    
+    .tituloMedios {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .textoMedios {
+        font-size: 1.6rem;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 35px;
+    background: rgb(222,184,135);
+    background: linear-gradient(86deg, rgba(222,184,135,1) 17%, rgba(210,130,39,1) 100%, rgba(134,78,0,1) 100%, rgba(94,67,8,1) 100%, rgba(88,65,9,1) 100%);
+    }
+    
+    
+    .seccionMedios {
+    display: flex;
+    align-items: center;
+    }
+    /*-------CONTACTO-------*/
+    
+    .mapaejemplo {
+        display: flex ;
+        flex-direction: row;
+        justify-content:center ;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 15rem;
+    }
+    
+    .horariostitulo {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 50%;
+        border: solid 1.5px black;
+        padding: 40px;
+        background: rgb(222,184,135);
+    background: linear-gradient(86deg, rgba(222,184,135,1) 17%, rgba(210,130,39,1) 100%, rgba(134,78,0,1) 100%, rgba(94,67,8,1) 100%, rgba(88,65,9,1) 100%);
+    }
+    
+    .nosotrosParrafo {
+    font-size: 1.8rem;
+    width: 80%;
+    text-align: center;
+    margin-block: 1rem 10rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    border: solid 1px black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(217, 206, 206, 0.927);
+    }
+    
+    .tarjeta {
+        border: 1px solid black;
+    text-align: center;
+    }
+    
+    .tarjeta__img {
+    width: 213px;
+    height: 158px;
+    }
+    
+    .tarjetaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-block: 10rem;
+    }
+    
+    
+    
+    /*-------MEDIA-------*/
+    
+    @media screen and (max-width: 1200px) {
+    
+        .titulo {
+            font-size: 4rem;
+        }
+        
+    .imgTulipan {
+        margin-right: 30px;
+    }
+        
+    .imgGirasol {
+        margin-left: 30px;
+    }
+    
+    
+    /*-------MEDIA MEDIOS DE PAGO-------*/
+    
+    
+    .tituloMedios {
+        font-size: 2.2rem;
+        margin-top: 15px;
+    }
+    
+    .titulo {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .navbarList {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .mujerArtesana {
+        width: 600px;
+    }
+    
+    .seccionMedios {
+        margin-top: 60px;
+        gap: 20px;
+    }
+    
+    .textoMedios {
+        font-size: 1.4rem;
+    }
+    
+    .redesfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4.5rem;
+    }
+    
+        }
+        
+    
+        @media screen and (max-width: 768px) {
+    
+            .titulo {
+                text-align: center;
+            }
+            
+            .navbarList {
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            }
+            
+    .navbarItem:hover {
+        font-size: 1.2rem;
+    }
+    
+            .imgTulipan {
+            width: 70%;
+            margin-left: 10px;
+            }
+            
+            .text {
+            font-size: 1.3rem;
+            }
+            
+            .imgGirasol {
+            width: 75%;
+            }
+            
+            .textGirasol {
+                font-size: 1.3rem;
+                margin-right: 15px;
+            }
+            
+            .titulofooter {
+                font-size: 2.5rem;
+            }
+            
+            .atajosfooter {
+                font-size: 1.2rem;
+            }
+            
+    .atajosfooterItem:hover {
+        font-size: 1.4rem;
+    }
+    
+            .redesfooter {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 70px;
+            }
+            
+            /*-------MEDIA MEDIOS DE PAGO-------*/
+    
+            .titulo {
+                font-size: 3.5rem;
+            }
+    
+    .tituloMedios {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .seccionMedios {
+        display: flex;
+        flex-direction: column;
+    }
+    
+            .navbarList {
+                font-size: 1.1rem;
+            }
+    
+           .mujerArtesana {
+            width: 500px;
+            margin-left: 7rem;
+            margin-right: 7rem;
+           }
+    
+           .textoMedios {
+            font-size: 1.4rem;
+            width: 80%;
+            margin-left: 5rem;
+            border: solid 1.5px black;
+            border-radius: 25px;
+            padding: 15px;
+            margin-right: 80px;
+           }
+    
+        
+            }
+    
+    
+    @media screen and (max-width: 375px) {
+    .titulo {
+    text-align: center;
+    font-size: 2.7rem;
+    }
+     
+    
+    .navbarList {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 25px;
+    }
+    
+    .navbarItem:hover {
+        font-size: 1rem;
+    }
+    
+    .seccionLogo {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .imgLogo {
+    width: 373px;
+    }
+    
+    
+    .seccionTulipan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-left: 8px;
+    padding: 20px;
+    }
+    
+    .imgTulipan {
+    width: 330px;
+    margin-right: 10px;
+    }
+    
+    .text {
+    font-size: 1rem ;
+    margin-left: 40px;
+    width: 80%;
+    margin-right: 35px;
+    }
+    
+    
+    .seccionGirasol {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 8px;
+    }
+    
+    .textGirasol {
+        font-size: 1rem;
+        width: 80%;
+        margin-top: 15px;
+    }
+    
+    
+    .imgGirasol {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 330px;
+    margin: 0%;
+    margin-left: 12px;
+    margin-top: 15px;
+    margin-right: 12px;
+    }
+    
+    .titulofooter {
+    font-size: 2rem;
+    }
+    
+    .atajosfooter {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+    
+    .atajosfooterItem:hover {
+        font-size: 1.3rem;
+    }
+    
+    .redesfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    }
+    
+    
+    /*-------MEDIA MEDIOS DE PAGO-------*/
+    
+    
+    .seccionMedios {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .tituloMedios {
+    font-size: 1.7rem;
+    text-align: center;
+    }
+    
+    .textoMedios {
+    font-size: 1rem;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 18px;
+    margin-right: 18px;
+    }
+    
+    .mujerArtesana {
+    width: 300px;
+    margin-left: 0%;
+    margin-left: 80px;
+    }
+    
+    }
+    
+    
+    

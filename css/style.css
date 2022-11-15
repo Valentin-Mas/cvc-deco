@@ -5,4 +5,126 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  background: rgb(222, 184, 135);
+  background: linear-gradient(90deg, rgb(222, 184, 135) 18%, rgb(210, 130, 39) 46%, rgb(134, 78, 0) 81%, rgb(88, 65, 9) 100%);
+  padding: 30px;
+}
+.header nav .titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-size: 3.5rem;
+}
+.header nav .navbarList {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  font-size: 1.3rem;
+}
+.header nav .navbarList .navbarItem {
+  border: solid 1.5px black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.header nav .navbarList .navbarItem:hover {
+  font-size: 1.4rem;
+  background-color: rgba(239, 135, 0, 0.918);
+  transition: all 1s;
+}
+
+.mainInicio {
+  background-color: rgba(240, 248, 255, 0.924);
+}
+.mainInicio .seccionLogo {
+  display: flex;
+  justify-content: center;
+}
+.mainInicio .seccionLogo .imgLogo {
+  border-radius: 20px;
+  margin-top: 3rem;
+  border: solid 1px black;
+}
+.mainInicio .seccionTulipan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 15px;
+  background: rgb(222, 184, 135);
+  background: linear-gradient(86deg, rgb(222, 184, 135) 17%, rgb(210, 130, 39) 100%, rgb(134, 78, 0) 100%, rgb(94, 67, 8) 100%, rgb(88, 65, 9) 100%);
+  padding: 40px;
+  border: solid 1px black;
+}
+.mainInicio .seccionTulipan .imgTulipan {
+  border-radius: 15px;
+}
+.mainInicio .seccionTulipan .text {
+  width: 40%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.mainInicio .seccionGirasol {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-block: 5rem;
+  margin-bottom: 0%;
+  background: rgb(222, 184, 135);
+  background: linear-gradient(86deg, rgb(222, 184, 135) 17%, rgb(210, 130, 39) 100%, rgb(134, 78, 0) 100%, rgb(94, 67, 8) 100%, rgb(88, 65, 9) 100%);
+  padding: 40px;
+  border: solid 1px black;
+}
+.mainInicio .seccionGirasol .imgGirasol {
+  border-radius: 15px;
+}
+.mainInicio .seccionGirasol .textGirasol {
+  width: 40%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.footer {
+  background: rgb(222, 184, 135);
+  background: linear-gradient(90deg, rgb(222, 184, 135) 18%, rgb(210, 130, 39) 46%, rgb(134, 78, 0) 81%, rgb(88, 65, 9) 100%);
+  margin-top: 3rem;
+}
+.footer .titulofooter {
+  font-size: 3rem;
+}
+.footer .atajosfooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 40px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+.footer .atajosfooter .atajosfooterItem {
+  text-decoration: none;
+  color: black;
+}
+.footer .atajosfooter .atajosfooterItem:hover {
+  font-size: 1.7rem;
+  transition: all 1s;
+}
+.footer .redesfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+.mainInicio {
+  background-color: rgba(240, 248, 255, 0.924);
+
+  .seccionLogo {
+    display: flex;
+    justify-content: center;
+
+    .imgLogo {
+      border-radius: 20px;
+      margin-top: 3rem;
+      border: solid 1px black;
+    }
+  }
+
+  .seccionTulipan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 15px;
+    background: rgb(222, 184, 135);
+    background: linear-gradient(
+      86deg,
+      rgba(222, 184, 135, 1) 17%,
+      rgba(210, 130, 39, 1) 100%,
+      rgba(134, 78, 0, 1) 100%,
+      rgba(94, 67, 8, 1) 100%,
+      rgba(88, 65, 9, 1) 100%
+    );
+    padding: 40px;
+    border: solid 1px black;
+
+    .imgTulipan {
+      border-radius: 15px;
+    }
+
+    .text {
+      width: 40%;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  }
+
+  .seccionGirasol {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-block: 5rem;
+    margin-bottom: 0%;
+    background: rgb(222, 184, 135);
+    background: linear-gradient(
+      86deg,
+      rgba(222, 184, 135, 1) 17%,
+      rgba(210, 130, 39, 1) 100%,
+      rgba(134, 78, 0, 1) 100%,
+      rgba(94, 67, 8, 1) 100%,
+      rgba(88, 65, 9, 1) 100%
+    );
+    padding: 40px;
+    border: solid 1px black;
+
+    .imgGirasol {
+      border-radius: 15px;
+    }
+
+    .textGirasol {
+      width: 40%;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  }
+}
