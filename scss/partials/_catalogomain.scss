@@ -1,0 +1,16 @@
+.tarjetaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-block: 10rem;
+
+  .tarjeta {
+    border: 1px solid black;
+    text-align: center;
+
+    .tarjeta__img {
+      width: 213px;
+      height: 158px;
+    }
+  }
+}

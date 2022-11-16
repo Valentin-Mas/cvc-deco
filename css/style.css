@@ -127,4 +127,78 @@ a {
   gap: 20px;
 }
 
+.tarjetaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-block: 10rem;
+}
+.tarjetaContainer .tarjeta {
+  border: 1px solid black;
+  text-align: center;
+}
+.tarjetaContainer .tarjeta .tarjeta__img {
+  width: 213px;
+  height: 158px;
+}
+
+main .tituloMedios {
+  font-size: 2.5rem;
+  text-align: center;
+}
+main .seccionMedios {
+  display: flex;
+  align-items: center;
+}
+main .seccionMedios .textoMedios {
+  font-size: 1.6rem;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  border: solid 1px black;
+  border-radius: 25px;
+  padding: 35px;
+  background: rgb(222, 184, 135);
+  background: linear-gradient(86deg, rgb(222, 184, 135) 17%, rgb(210, 130, 39) 100%, rgb(134, 78, 0) 100%, rgb(94, 67, 8) 100%, rgb(88, 65, 9) 100%);
+}
+
+main .tituloMedios {
+  font-size: 2.5rem;
+  text-align: center;
+}
+main .mapaEjemplo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 15rem;
+}
+main .horariosTitulo {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 50%;
+  border: solid 1.5px black;
+  padding: 40px;
+  background: rgb(222, 184, 135);
+  background: linear-gradient(86deg, rgb(222, 184, 135) 17%, rgb(210, 130, 39) 100%, rgb(134, 78, 0) 100%, rgb(94, 67, 8) 100%, rgb(88, 65, 9) 100%);
+}
+
+main .tituloMedios {
+  font-size: 2.5rem;
+  text-align: center;
+}
+main .nosotrosParrafo {
+  font-size: 1.8rem;
+  width: 80%;
+  text-align: center;
+  margin-block: 1rem 10rem;
+  margin-left: 9rem;
+  margin-top: 3rem;
+  border: solid 1px black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(217, 206, 206, 0.927);
+}
+
 /*# sourceMappingURL=style.css.map */
